@@ -5,9 +5,9 @@ Config = {}
 -- If the framework you are using is not listed, you will need to modify the framework.lua code to work with your framework
 -- Note: If using ox for any option, enable @ox_lib/init.lua in the manifest!
 
-Config.Framework = 'qb'     -- 'qb', 'esx'
-Config.Notify = 'qb'        -- 'qb', 'esx', 'ox' 
-Config.Target = 'qb'        -- 'qb', 'ox'
+Config.Framework = 'esx'     -- 'qb', 'esx'
+Config.Notify = 'ox'        -- 'qb', 'esx', 'ox' 
+Config.Target = 'ox'        -- 'qb', 'ox'
 
 -- This is the amount of time to wait and check that the player was able to make it into the seat
 -- If the time is elapsed and they are not seated, they will be teleported into the seat
